@@ -1,5 +1,5 @@
 #![deny(missing_docs)]
-#[no_std]
+#![no_std]
 
 //! linux_console_fonts provides access to the 8x16 font used in the Linux Console as a byte array.
 
