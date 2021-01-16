@@ -3,6 +3,9 @@
 
 //! linux_console_fonts provides access to the 8x16 font used in the Linux Console as a byte array.
 
+/// The font's size in pixels
+pub static FONT_DIMENSIONS: (u8, u8) = (8, 16);
+
 /// The byte array containing the font.
 pub static FONT: &[u8] = &[
     0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000, 0b00000000,
